@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <catalog>
 
   <book>
     <author>Алекс Гомер</author>
-    <title>XML и IE5</title>
+    <title>XML and IE11</title>
     <pubyear>2000</pubyear>
     <price>200</price>
   </book>

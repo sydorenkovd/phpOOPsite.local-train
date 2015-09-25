@@ -1,6 +1,10 @@
 <?php 
   header( "Content-Type: text/html;charset=utf-8");
-  $dom = new DomDocument();
+  $dom = new DomDocument("1.0", "utf-8");
+  $rss = $dom->createElement("rss");
+$dom->appendChild("rss");
+
+
   $dom->load("catalog.xml");
   $root = $dom->documentElement;
   // echo $root->nodeType;
