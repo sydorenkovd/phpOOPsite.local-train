@@ -1,12 +1,12 @@
 <?php
-try {
+// try {
   // Создание SOAP-клиента
-  $client = new SoapClient("http://mysite.local/demo/soap/stock.wsdl");
-	
+  $client = new SoapClient("http://phpoopsite.local/demo/soap/stock.wsdl");
   // Посылка SOAP-запроса c получением результат
-  $result = $client->getStock("7");
+  $result = $client->getStock("a");
   echo "Текущий запас на складе: ", $result;
-} catch (SoapFault $exception) {
-  echo $exception->getMessage();	
-}
+// } 
+// catch (SoapFault $exception) {
+  // echo $exception->getMessage();	
+// }
 ?>
